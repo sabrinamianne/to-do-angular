@@ -1,0 +1,11 @@
+h2 {
+  color: violet;
+}
+
+.box-model{
+  width: 900px;
+  border: 15px solid violet;
+  padding: 100px;
+  margin-left: 10%;
+  margin-top: 50px;
+}
