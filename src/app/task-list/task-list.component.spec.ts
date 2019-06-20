@@ -5,7 +5,7 @@ import { TaskListComponent } from './task-list.component';
 describe('TaskListComponent', () => {
   let component: TaskListComponent;
   let fixture: ComponentFixture<TaskListComponent>;
-
+    
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ TaskListComponent ]
@@ -22,4 +22,5 @@ describe('TaskListComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
 });
